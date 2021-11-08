@@ -1,0 +1,422 @@
+
+  
+<!DOCTYPE html>
+<html>
+<head>
+     
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+<title>小石博客</title>
+<link href="/img/favicon.png" rel="shortcut icon">
+<meta name="author" content="小石呀 ">
+<meta name="copyright" content="小石呀">
+<meta name="keywords" content="">
+<meta name="description" content="盒模型box盒子：每个元素在页面中会生成一个矩形区域（盒子）盒子类型：1、行盒，display等于inline的元素2、块盒:display等于block的元素行盒在页面中不换行，块盒独占一行默认为行盒inline浏览器默认样式设置的块盒：容器元素，h1~h6，p常见的行盒：span,a,img,video,adio盒子的组成部分无论是行盒，还是块盒，都有以下几个部分组成，从内到外1、内容contentwidth、height设置的是盒子内容的宽高内容部分通常叫做整个盒子的内容盒contrnt-box2、填充（内边距）padding盒子边框到盒子内容的距离padding-left、padding-right、padding-top、padding-bottompadding:简写属性padding：上右下左填充区+内容区=填充盒填充盒padding-box3、边框border边框=边框样式+边框宽度+边框颜色边框样式：border-style边框宽度：border-width边框颜色：border-color4、外边距mergin" />
+<meta property="site_name" content="小石博客 " />
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://example.com/2021/11/09/%E7%9B%92%E6%A8%A1%E5%9E%8B/index.html">
+<meta property="og:title" content="小石博客" />
+<meta property="og:site_name" content="小石博客" />
+<meta property="og:description" content="盒模型box盒子：每个元素在页面中会生成一个矩形区域（盒子）盒子类型：1、行盒，display等于inline的元素2、块盒:display等于block的元素行盒在页面中不换行，块盒独占一行默认为行盒inline浏览器默认样式设置的块盒：容器元素，h1~h6，p常见的行盒：span,a,img,video,adio盒子的组成部分无论是行盒，还是块盒，都有以下几个部分组成，从内到外1、内容contentwidth、height设置的是盒子内容的宽高内容部分通常叫做整个盒子的内容盒contrnt-box2、填充（内边距）padding盒子边框到盒子内容的距离padding-left、padding-right、padding-top、padding-bottompadding:简写属性padding：上右下左填充区+内容区=填充盒填充盒padding-box3、边框border边框=边框样式+边框宽度+边框颜色边框样式：border-style边框宽度：border-width边框颜色：border-color4、外边距mergin" />
+<meta property="og:locale" content="zh-CN">
+<meta property="article:author" content="小石呀 ">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="http://example.com" rel="prefetch">
+<link href="//cdn.jsdelivr.net" rel="preconnect" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link href="/css/main.css " rel="stylesheet">
+<script src="/js/utlis.js"></script>
+ 
+    
+ 
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+     
+    
+ 
+     
+
+<script>
+    var $config = {
+        CDN:{
+            fancyboxJs: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js",
+            fancyboxCss: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+        },
+        
+        searchFile: "/search.xml",
+        
+        
+        codeBlockExpand: {
+            enable: true,
+            height: 400,
+            scrollTop: 200
+        }
+        
+    }
+</script>
+    
+
+
+
+
+  
+
+
+    <div id="body-wrap">
+        <nav id="nav-wrap">
+  <div class="navbar">
+    <div class="bar">
+      <a href="/" class="title">小石博客</a>
+
+      
+      <i class="fas fa-search search-btn"></i>
+      
+      <ul class="menu">
+        
+      </ul>
+      <i class="fas fa-bars open-nav"></i>
+    </div>
+  </div>
+</nav>
+<div id="mobile-nav">
+  <ul>
+    
+  </ul>
+</div>
+
+        <div id="main-wrap">
+                <main class="main">
+                     
+                     
+
+<article class="post">
+  <div class="post-info">
+    <div class="post-title">
+      <h1>无标题</h1>
+    </div>
+    <div class="post-meta">
+      <div class="post-date">
+        <i class="far fa-calendar-alt fa-fw post-meta-icon"></i>
+        <span class="post-meta-label">
+          发表于
+            2021-11-09 |
+        </span>
+        
+        <i class="fas fa-history fa-fw post-meta-icon"></i>
+        <span class="post-meta-label">
+          更新于
+            2021-11-09
+        </span>
+      </div>
+      <div class="post-meta-wordcount">
+        <i class="far fa-file-word fa-fw post-meta-icon"></i>
+        <span class="post-meta-label">总字数:</span>
+        <span class="word-count">247 | </span>
+        <i class="far fa-clock fa-fw post-meta-icon"></i>
+        <span class="post-meta-label">阅读时长:</span>
+        <span>1分钟</span>
+        
+        | <i class="far fa-eye fa-fw post-meta-icon"></i>
+        <span id="/2021/11/09/%E7%9B%92%E6%A8%A1%E5%9E%8B/" class="leancloud_visitors">
+            <span class="post-meta-label">阅读量:</span>
+            <span class="leancloud-visitors-count" id="twikoo_visitors">0</span>
+        </span>
+        
+      </div>
+    </div>
+  </div>
+  <div class="post-content">
+    <h1 id="盒模型"><a href="#盒模型" class="headerlink" title="盒模型"></a>盒模型</h1><p>box 盒子 ：每个元素在页面中会生成一个矩形区域（盒子）<br>盒子类型：<br>1、行盒，display等于inline的元素<br>2、块盒:display等于block的元素<br>行盒在页面中不换行，块盒独占一行<br>默认为行盒 inline<br>浏览器默认样式设置的块盒：容器元素，h1~h6，p<br>常见的行盒：span,a,img,video,adio</p>
+<h2 id="盒子的组成部分"><a href="#盒子的组成部分" class="headerlink" title="盒子的组成部分"></a>盒子的组成部分</h2><p>无论是行盒，还是块盒，都有以下几个部分组成，从内到外<br>1、内容 content<br>width、height 设置的是盒子内容的宽高<br>内容部分通常叫做整个盒子的<strong>内容盒 contrnt-box</strong><br>2、填充（内边距） padding<br>盒子边框到盒子内容的距离<br>padding-left、padding-right、padding-top、padding-bottom<br>padding:简写属性<br>padding：上 右 下 左<br>填充区+内容区=填充盒<strong>填充盒 padding-box</strong><br>3、边框 border<br>边框=边框样式+边框宽度+边框颜色<br>边框样式：border-style<br>边框宽度：border-width<br>边框颜色：border-color<br>4、外边距 mergin</p>
+
+  </div>
+   
+   
+
+  
+  <div class="post-copyright">
+    <div class="post-copyright-icon"></div>
+      <div class="post-copyright-author">
+          <span class="post-copyright-meta">文章作者: </span>
+            <span class="post-copyright-info">
+              <a href="mailto:lete@lete114.top" >Lete乐特</a>
+            </span>
+      </div>
+      <div class="post-copyright-type">
+          <span class="post-copyright-meta">文章链接: </span>
+            <span class="post-copyright-info">
+              <a href="http://example.com/2021/11/09/盒模型/" >http://example.com/2021/11/09/盒模型/</a>
+            </span>
+      </div><div class="post-copyright-notice">
+          <span class="post-copyright-meta">版权声明: </span>
+            <span class="post-copyright-info">本博客所有文章除特别声明外，均采用
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/ " target="_blank" >
+                  CC BY-NC-SA 4.0 </a> 许可协议。转载请注明来自
+              <a href="http://example.com/2021/11/09/盒模型/" target="_blank" >Lete乐特&#39;s Blog</a>
+              ！</span>
+      </div>
+  </div>
+  
+
+
+ 
+
+
+
+
+<div class="pagination-post">
+    
+    <a href="/2021/11/09/%E7%9B%92%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/">
+      <div class="prev-title"><i class="fas fa-chevron-left"></i>无标题</div>
+      <div class="prev-desc">盒模型应用改变宽高范围</div>
+    </a>
+    
+    
+    <a href="/2021/11/09/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%85%83%E7%B4%A0/">
+      <div class="next-title">无标题<i class="fas fa-chevron-right"></i></div>
+      <div class="next-desc">多媒体元素video 视频audio 音频
+video元素controls:控制播放控件controls=”controls”要么不写，要么取值为属性名这种属性叫做布尔属性
+autoplay：自...</div>
+    </a>
+    
+</div>
+</article>
+
+    <div class="comment-head" id="直达评论">
+        <hr>
+        <div class="comment-headline">
+            <i class="fas fa-comments fa-fw"></i>
+            <span>评论</span>
+        </div>
+        
+            
+<div id="wcomments"></div>
+<script>
+function LoadWaline() {
+    getScript("//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js",function(){
+        let initData = {
+            el: '#wcomments',
+            path: location.pathname,
+            serverURL: 'https://waline.vercel.app/',
+            placeholder: '快来评论吧!!',
+            avatar: '',
+            meta: 'nick,mail,link'.split(","),
+            requiredFields: 'nick,mail,link'.split(","),
+            pageSize: 5,
+            lang: 'zh-CN',
+            emojiCDN: '',
+            emojiMaps: null,
+            visitor: true
+        }
+        var option = false;
+        if (option) {
+            initData = Object.assign(initData, option)
+        }
+        new Waline(initData)
+    })
+}
+LoadWaline()
+</script>
+        
+    </div>
+
+ 
+ 
+
+  <div id="toc">
+    <div class="toc-title">
+      <div>
+        目录
+          <span class="num">0%</span>
+      </div>
+      <progress class="progress" value="0" max="100"></progress>
+    </div>
+    <div class="toc-list">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%9B%92%E6%A8%A1%E5%9E%8B"><span class="toc-text">盒模型</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%92%E5%AD%90%E7%9A%84%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86"><span class="toc-text">盒子的组成部分</span></a></li></ol></li></ol>
+    </div>
+  </div>
+
+                </main>
+        </div>
+        <section id="rightside">
+    
+    <div class="rightside-item">
+        
+        
+         
+         
+        
+            <a id="open-toc" title="目录">
+                <i class="fas fa-list-ul"></i>
+            </a>
+        
+         
+         
+        <a href="javascript:(0)" id="darkmode" title="深色/浅色 ">
+            <i class="fas fa-moon"></i>
+        </a>
+         
+        
+        
+            <a href="#直达评论" title="直达评论">
+                <i class="fas fa-comments"></i>
+            </a>
+        
+        <a href="#" title="回到顶部">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+</section>
+         
+
+<footer class="footer" id="footer">
+    <div class="copyright">
+      &copy; 2020 - 2021
+        <i class="fas fa-fan"></i>
+        小石呀
+    </div>
+    <div class="framework-info">
+        <span>框架 </span>
+        <a href="https://hexo.io" target="_blank">Hexo</a>
+        <span class="footer-separator">|</span>
+        <span>主题 </span>
+        <a href="https://github.com/lete114/hexo-theme-MengD" target="_blank">MengD.(萌典) </a>
+    </div>
+    
+    <div class="custom-text">我相信我可以，但我一直在路上，所以我有无限的可能！！</div>
+</footer>
+    </div>
+    <div id="mask" onclick="closeAll()"></div>
+    
+    <div id="local-search">
+        <div id="local-search-title">本地搜索 </div>
+        <input id="local-search-input" autocomplete="off" placeholder="搜索文章"
+            type="text">
+        <hr>
+        <div id="local-search-result"></div>
+        <span class="search-close-button"><i class="fas fa-times"></i></span>
+    </div>
+    <script src="/js/search.js"></script>
+
+    <div class="script">
+        <script src="/js/main.js"></script>
+        
+
+ 
+<script>
+    var originTitle = document.title;
+    var titleTime;
+    document.addEventListener("visibilitychange", function () {
+        if (document.hidden) {
+            document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+            clearTimeout(titleTime);
+        } else {
+            document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+            titleTime = setTimeout(function () {
+                document.title = originTitle;
+            }, 2000);
+        }
+    });
+</script>
+
+
+<script src="/js/lazyload.js"></script>
+
+
+    
+
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+    <script>
+        var pjax = new Pjax({
+            selectors: [
+                "head title",
+                "main.main",
+                "#rightside"
+            ],
+            cache: true,
+            cacheBust: false
+        });
+
+        // 清除时间
+        var timer = null;
+        // 执行进度条
+        function ProgressStart(){
+            // 设置初始进度
+            var progress = 10;
+            // 创建进度条 及 css样式
+            var div = document.createElement('div');
+            div.className = "pjax-progress";
+            document.body.prepend(div);
+            // 定义随机数最大值最小值
+            var max=10,mini=3;
+            var result=max-mini;
+            // 清除
+            clearInterval(timer);
+            // 0.5秒内累加进度
+            timer = setInterval(function(){
+                // 随机数
+                var num = parseInt(Math.random()*result);
+                var randomResult = num+mini;
+                // 累加
+                progress+=randomResult
+                document.getElementsByClassName("pjax-progress")[0].style.width = progress+"%";
+                // 当进度达到95%时停止
+                if(progress>95)progress=95
+            },500)
+        }
+        // 加载进度条加载完毕
+        function ProgressFinish(){
+            clearInterval(timer);
+            // 页面加载完毕后进度100% 并在0.7秒后删除
+            var progress = document.getElementsByClassName("pjax-progress");
+            progress[0].style.width = "100%";
+            timer = setTimeout(function () {
+            progress[0].parentNode.removeChild(progress[0])
+            }, 700);
+        }
+
+        // 开始 PJAX 执行的函数
+		document.addEventListener('pjax:send', function () {
+            // 执行进度条
+            ProgressStart()
+        });
+        // PJAX 完成之后执行的函数，可以和上面的重载放在一起
+		document.addEventListener('pjax:complete', function () {
+
+            // 加载进度条加载完毕
+            ProgressFinish()
+            // 执行所有方法
+            exeAllFn()
+
+            
+                // 图片懒加载
+                ImgLazyLoad("body img[data-img]","data-img")
+            
+            
+            
+            document.querySelectorAll('script[data-pjax]').forEach(item => {
+                const newScript = document.createElement('script')
+                const content = item.text || item.textContent || item.innerHTML || ""
+                Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+                newScript.appendChild(document.createTextNode(content))
+                item.parentNode.replaceChild(newScript, item)
+            })
+        });
+
+        // Pjax请求错误时，跳转到404页面
+        document.addEventListener('pjax:error', (err) => {
+            if (err.request.status === 404) {
+                pjax.loadUrl('/404.html')
+            }
+        })
+    </script>
+
+    </div>
+</body>
+
+</html>
